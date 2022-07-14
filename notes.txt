@@ -1,0 +1,2 @@
+O que estava fazendo antes:
+tentando organizar o site no conceito mobile first, parei de mexer na classe "movie-cover"

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <title>Movie Search</title>
+</head>
+
+<body>
+    <header id="header-container">
+        <nav id="nav-bar">
+            <div id="logo-text">
+                <p>Movie Searching Engine</p>
+            </div>
+            <div id="nav-form">
+                <label id="search-label" for="search-form"><span>Movie Name</span></label>
+                <form id="search-form" action="">
+                    <input type="text">
+                    <button><img src="image/mag_glass.png" alt=""></button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <div id="main-div">
+        <main id="main-container">
+            <div id="movie-cover-container">
+                <img class="movie-cover" src="image/sample01.jfif" alt="sampleimg">
+                <img class="movie-cover" src="image/sample01.jfif" alt="sampleimg">
+                <img class="movie-cover" src="image/sample01.jfif" alt="sampleimg">
+                <img class="movie-cover" src="image/sample01.jfif" alt="sampleimg">
+                <img class="movie-cover" src="image/sample01.jfif" alt="sampleimg">
+                <img class="movie-cover" src="image/sample01.jfif" alt="sampleimg">
+            </div>
+        </main>
+    </div>
+    <footer id="footer-container">
+        <p class="footer-p">Enterprise Name ltda<br>All rights reserved</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
